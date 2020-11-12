@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.h1-title {
+    text-align:center;
+    font-size: 4rem;
+    color: purple;
+    font-style: underline;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    color: white;
+    height: 50vh;
+    
+    border: 10px solid black;
+    font-size: 50px;
+    transition-duration: 1s;
+    background-position: center;
+    background-size: cover;
+}
+.box:hover {
+    flex: 4;
+    background-color: purple;           
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+}
+
+
+.box:nth-of-type(1) {
+    background-image: url(https://media.allure.com/photos/5be5e2d766bc417f7dcd1ff3/4:3/w_2664,h_1998,c_limit/Michelle%20Obama.jpg);
+}
+.box:nth-of-type(2) {
+    background-image: url(https://pyxis.nymag.com/v1/imgs/a02/a3e/eae62df77f32aa980efc8305ad37444612-michelle-obama.rvertical.w330.jpg);
+}
+.box:nth-of-type(3) {
+    background-image: url(https://assets.vogue.com/photos/58917571fb0604bf1f5c3397/master/pass/michelle-obama-president.jpg);
+}
+.box:nth-of-type(4) {
+    background-image: url(https://media1.popsugar-assets.com/files/thumbor/Z9qSdKnyBXYclVPWeXnSaprCQcI/279x311:2489x2521/fit-in/2048xorig/filters:format_auto-!!-:strip_icc-!!-/2020/02/14/832/n/1922398/66fc57fe5e46ee0971c936.27714552_/i/Michelle-Obama.jpg);
+}
+.box:nth-of-type(5) {
+    background-image: url(https://i.insider.com/5f6f4e9074fe5b0018a8da63?width=1100&format=jpeg&auto=webp);
+}
+
