@@ -52,3 +52,32 @@ body {
     background-image: url(https://i.insider.com/5f6f4e9074fe5b0018a8da63?width=1100&format=jpeg&auto=webp);
 }
 
+.nav-bar {
+    width: 600px;
+    padding-top: 1
+    0px;
+    position: right;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 300;
+    font-size: 20px;
+    
+  }
+  
+  .nav-bar-ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 1200px;
+    margin-right: 15%;
+    list-style-type: none;
+    text-align: center;
+
+  }
+  
+  .nav-bar-ul a {
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+
+  }
