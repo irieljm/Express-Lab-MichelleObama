@@ -2,15 +2,25 @@
   "name": "express-lab",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "handlebars": "^4.7.6",
+    "package.json": "^2.0.1"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/irieljm/Express-Lab-MichelleObama.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "express": "^4.17.1",
-    "handlebars": "^4.7.6"
-  }
+  "bugs": {
+    "url": "https://github.com/irieljm/Express-Lab-MichelleObama/issues"
+  },
+  "homepage": "https://github.com/irieljm/Express-Lab-MichelleObama"
 }
